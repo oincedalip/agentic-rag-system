@@ -1,0 +1,17 @@
+[project]
+name = "agentic-rag-system"
+version = "0.1.0"
+description = "Multiagent RAG system for operational know-how support"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "langgraph",
+    "langgraph-prebuilt",
+    "langgraph-sdk",
+    "langgraph-checkpoint-sqlite",
+    "langsmith",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "notebook",
+]
