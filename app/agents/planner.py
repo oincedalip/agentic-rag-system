@@ -1,14 +1,16 @@
-from typing import Dict
+from typing import Dict, List
 from app.graph.state import AgentState
 from langchain_core.messages import SystemMessage, HumanMessage
-import json
+from pydantic import BaseModel, Field
 
+class PlannerAgentOutput(BaseModel):
+    plan: List[str] = Field(description="List of action item names")
 
 class PlannerAgent:
 
     def __init__(self, model_client):
         # model_client would be your LLM interface (OpenAI, Gemini, etc.)
-        self.model = model_client
+        self.model = model_client.with_structured_output(PlannerAgentOutput, include_raw=False)
 
     def _get_system_prompt(self) -> str:
         return (
@@ -32,9 +34,7 @@ class PlannerAgent:
         default_plan = ["retrieve_documents", "generate_answer", "validate_output"]
 
         try:
-            # Parse the structured output
-            plan_data = json.loads(response.content)
-            plan = plan_data.get("plan",  default_plan) # Fallback
+            plan = response.plan
         except Exception as e:
             print(f"Error parsing plan: {e}")
             plan = default_plan # Safety default
