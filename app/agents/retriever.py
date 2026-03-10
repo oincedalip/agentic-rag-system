@@ -1,20 +1,21 @@
-from typing import Dict
 from app.graph.state import AgentState, RetrievedDocument
-
+from app.rag.retriever import retrieve_documents
 
 class RetrievalAgent:
-
-    def run(self, state: AgentState) -> Dict:
-
+    def run(self, state: AgentState):
+        print("--Retrieval Agent--")
+        
         query = state.query
+        docs = retrieve_documents(query)
 
-        # placeholder retrieval logic
-        docs = [
+        retrieved_docs = [
             RetrievedDocument(
-                content="Example document",
-                source="knowledge_base",
-                score=0.92
+                content=d["content"],
+                source=d["source"],
+                score=d["score"]
             )
+            for d in docs
         ]
 
-        return {"retrieved_docs": docs}
+        print(f"Successfully retrieved {len(retrieved_docs)} documents.")
+        return {"retrieved_docs": retrieved_docs}
