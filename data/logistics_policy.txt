@@ -1,0 +1,73 @@
+Logistics Policy
+1. Purpose
+
+The purpose of this Logistics Policy is to establish standardized procedures for the management of transportation, warehousing, and distribution of goods. The policy ensures efficient operations, cost control, regulatory compliance, and timely delivery to customers and internal stakeholders.
+
+2. Scope
+
+This policy applies to all employees, contractors, and third-party partners involved in logistics activities including procurement, warehouse operations, transportation, and inventory management.
+
+3. Responsibilities
+Logistics Department
+
+The Logistics Department is responsible for planning, coordinating, and monitoring all logistics activities including shipping, receiving, and storage of goods.
+
+Warehouse Staff
+
+Warehouse personnel are responsible for:
+
+Proper handling and storage of products
+
+Accurate inventory tracking
+
+Ensuring goods are packaged and prepared according to shipment requirements
+
+Procurement Team
+
+The Procurement Team coordinates with logistics to ensure suppliers meet delivery schedules and packaging standards.
+
+4. Transportation Management
+
+All shipments must be scheduled through the approved transportation management system (TMS). Preferred carriers should be used whenever possible to ensure cost efficiency and reliability.
+
+Shipment documentation must include:
+
+Bill of lading
+
+Packing list
+
+Shipping labels
+
+Any regulatory documentation required for domestic or international transport.
+
+5. Inventory Control
+
+Inventory must be tracked using the company's warehouse management system (WMS). Regular cycle counts and periodic full inventory audits must be conducted to ensure accuracy.
+
+Discrepancies must be reported to the Logistics Manager within 24 hours.
+
+6. Packaging and Handling
+
+All products must be packaged in accordance with internal packaging standards to prevent damage during transportation. Fragile or high-value items must be clearly labeled and handled according to special handling procedures.
+
+7. Compliance and Safety
+
+All logistics operations must comply with applicable local and international transportation regulations. Employees must follow workplace safety guidelines when handling goods, operating equipment, or loading and unloading shipments.
+
+8. Performance Monitoring
+
+Logistics performance will be measured through key metrics including:
+
+On-time delivery rate
+
+Transportation cost per shipment
+
+Inventory accuracy
+
+Order fulfillment cycle time
+
+These metrics will be reviewed monthly to identify areas for improvement.
+
+9. Policy Review
+
+This policy will be reviewed annually by the Operations and Logistics Management teams to ensure alignment with business needs and regulatory requirements.
