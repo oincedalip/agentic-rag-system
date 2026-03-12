@@ -35,7 +35,7 @@ class ValidatorAgent:
         if not answer:
             return {"validation_passed": False, "confidence_score": 0.0}
 
-        context_text = "\n".join([doc.content for doc in docs])
+        context_text = "\n".join([doc.content for doc in docs]) if docs else ""
 
         # The validation prompt
         validation_request = (

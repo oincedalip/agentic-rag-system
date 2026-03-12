@@ -28,7 +28,7 @@ class ReasoningAgent:
         # Format context with identifiers for the LLM to reference
         context_block = "\n".join(
             [f"Source {i+1}: {doc.content}" for i, doc in enumerate(docs)]
-        )
+        ) if docs else ""
 
         # The synthesis prompt
         user_message = (
